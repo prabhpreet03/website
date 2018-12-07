@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+h3 {
+  color: #090116;
+}
+ul {
+  display: flex;
+}
+ul li{
+  list-style: none;
+  width: 60px;
+  height: 60px;
+  margin: 300px 30px;
+  transform: rotate(0deg);
+}
+.container{
+  position: relative;
+  width: 100%;
+}
+.container .section
+{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+.container .section:nth-child(1){
+  background: url(photos/bg1.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(2){
+  background: url(photos/bg2.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(3){
+  background: url(photos/bg3.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(4){
+  background: url(photos/bg4.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(5){
+  background: url(photos/bg5.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(6){
+  background: url(photos/bg6.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(7){
+  background: url(photos/bg7.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(8){
+  background: url(photos/bg8.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(9){
+  background: url(photos/bg9.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(10){
+  background: url(photos/bg10.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(11){
+  background: url(photos/bg11.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(12){
+  background: url(photos/bg12.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(13){
+  background: url(photos/bg13.jpg);
+  background-size: cover;
+}
+
+ul li span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px ;
+
+}
+
+ul li:hover span:nth-child(3) {
+  transform: translate(20px, -20px);
+  opacity: 1;
+}
+ul li:hover span:nth-child(2) {
+  transform: translate(10px, -10px);
+  opacity: .6;
+}
+ul li:hover span:nth-child(1) {
+  transform: translate(0px, 0px);
+  opacity: .3;
+}
+ul li:nth-child(1) span
+{
+  background: #3b5999;
+
+}
+ul li:nth-child(2) span
+{
+  background:  rgb(179, 23, 96);
+}
+ul li:nth-child(3) span
+{
+  background: #991200;
+
+}
+ul li:nth-child(4) span
+{
+  background: #3b5999;
+
+}
+ul li:nth-child(5) span
+{
+  background: #e4405f;
+
+}
+ul li:hover span {
+  box-shadow: -1px 1px 1px rgba(0,0,0,.2);
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  opacity: .6;
+  color: rgb(247, 242, 242);
+}
+
+nav a {
+  font-family: 'Work Sans', sans-serif;
+	font-size: 30;
+  color: rgb(116, 116, 116);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0px 10;
+  list-style: none;
+  transition: .5s;
+}
+
+img{
+  position: initial;
+  background-position-x: 5px;
+  background-position-y: 10px;
+  right: 50px;
+  width: 30px;
+  border :10px solid #090116;
+  padding: 0px;
+}
+
+body {
+  color: #090116;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  padding: 20px;
+
+}
+
+form {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  background: #fff4e0;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20;
+  font-variant-position: sub;
+
+}
+
+header { 
+  padding: 20px;
+  background: #090116;
+}
+
+
+
+.logo {
+
+  float: left;
+  padding: 0px 20;
+}
+
